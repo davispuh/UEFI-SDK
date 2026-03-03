@@ -1,0 +1,60 @@
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = UefiApp
+  FILE_GUID                      = 38e5350c-9ab0-46e5-92b2-549c3e87db8f
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  UefiAppTarget.c
+
+[Packages]
+  StdLib/StdLib.dec
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+
+[LibraryClasses]
+  LibC
+  LibStdio
+  BaseLib
+  UefiApplicationEntryPoint
+  UefiLib
+  MemoryAllocationLib
+  ShellCommandLib
+  UefiRuntimeServicesTableLib
+  UefiBootServicesTableLib
+  DevicePathLib
+  BaseMemoryLib
+  PcdLib
+  FileHandleLib
+  PrintLib
+  HiiLib
+  SortLib
+  HandleParsingLib
+  UefiHiiServicesLib
+  PeCoffGetEntryPointLib
+  IoLib
+  PciLib
+  PciCf8Lib
+  SynchronizationLib
+  PerformanceLib
+  HobLib
+  ShellLib
+  CacheMaintenanceLib
+  VariablePolicyHelperLib
+  DpcLib
+  NetLib
+  IpIoLib
+  UdpIoLib
+  TcpIoLib
+  HttpLib
+  HttpIoLib
+  OrderedCollectionLib
+  UefiBootManagerLib
+  DxeServicesTableLib
+  DxeServicesLib
+  ReportStatusCodeLib
+  SafeIntLib

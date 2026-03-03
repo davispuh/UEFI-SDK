@@ -1,0 +1,6 @@
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = SdkPkg
+  PACKAGE_GUID                   = 77E1F0B8-30E0-49EB-8001-650CA500CC07
+  PACKAGE_VERSION                = 1.00
