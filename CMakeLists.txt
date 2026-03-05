@@ -199,6 +199,7 @@ write_basic_package_version_file(
 install(FILES
         "${CMAKE_CURRENT_BINARY_DIR}/UefiSdkConfig.cmake"
         "${CMAKE_CURRENT_BINARY_DIR}/UefiSdkConfigVersion.cmake"
+        "uefi-toolchain.cmake"
         DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/UefiSdk")
 
 export(EXPORT UefiSdkTarget
